@@ -1,0 +1,17 @@
+{
+  "name": "ordenamiento",
+  "version": "1.0.0",
+  "description": "modulo para conocer los modulos de ordenamiento",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "order"
+  ],
+  "author": "sebalesca83o@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.2.1"
+  }
+}
