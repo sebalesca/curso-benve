@@ -12,8 +12,12 @@ rl.prompt();
 
 rl.on('line', (line) => {
   switch (line.trim()) {
-    case 'hello':
-      console.log('world!');
+    case 'burbuja':
+    let vector=[9,8,6,7,3,1];
+      ordenar.burbuja(vector,function(error,vector){
+          console.dir(vector);
+
+      }) 
       break;
     default:
       console.log(`Say what? I might have heard '${line.trim()}'`);
